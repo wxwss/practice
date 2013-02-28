@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteRule api.php api.php [L]  
+    RewriteRule login.php login.php [L]  
+    RewriteRule makeurl.php makeurl.php [L]  
+    RewriteRule (.*) index.php [L]
+ </IfModule>
